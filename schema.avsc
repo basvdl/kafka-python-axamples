@@ -1,0 +1,21 @@
+{
+  "name": "Person",
+  "type": "record",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "age",
+      "type": "int"
+    },
+    {
+      "name": "car",
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  ]
+}
